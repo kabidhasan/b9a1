@@ -8,18 +8,18 @@
 
 /* header styles start */
 
-header{
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    margin: 50px 140px;
-    height: 600px;
-    align-items: center;
-    background-position: center;
-    
+header {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin: 50px 140px 120px;
+  height: 600px;
+  align-items: center;
+  background-position: center;
 }
-.banner{
-    padding-top: 180px;
+.banner {
+  padding-top: 180px;
 }
 .subtitle {
   color: #fff;
@@ -38,4 +38,46 @@ header{
   line-height: 95px; /* 131.944% */
   max-width: 630px;
   margin: 16px auto 180px auto;
+}
+
+/* main section styles start */
+
+main {
+  background: #fff;
+}
+
+main section {
+  margin-bottom: 120px;
+}
+
+.offer-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.offer-subtitle {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.offer-category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.offer-pic {
+  max-width: 800px;
+  height: 500px;
+  flex-shrink: 0;
+  margin: 48px auto 0 auto;
+  display: block;
 }
