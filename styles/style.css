@@ -223,12 +223,96 @@ main section {
 }
 
 .portfolio-image-container {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .portfolio-img {
   width: 424px;
   height: 450px;
   border-radius: 16px;
+}
+
+/* newsletter section styles start  */
+
+.newsletter {
+  margin: 120px 140px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  border: 0;
+}
+
+.newsletter-container {
+  padding: 120px 140px;
+  display: block;
+  text-align: center;
+}
+
+.newsletter-icon {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.newsletter-title {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 40px;
+}
+
+.newsletter-description {
+  max-width: 900px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding: 22px 0 48px 0;
+}
+
+#newsletter-form {
+  border-radius: 50px;
+  background: #fff;
+  max-width: 700px;
+  max-height: 72px;
+  margin: auto;
+  border: 0;
+}
+#newsletter-email {
+  margin-right: 0px;
+  width: 400px;
+  height: 72px;
+  border: 0;
+  border-radius: 50px 0 0 50px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+
+  margin-left: 30px;
+}
+
+.newsletter-email::placeholder {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.3);
+}
+
+#newsletter-btn {
+  margin-left: 0px;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  width: 200px;
+  height: 72px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
