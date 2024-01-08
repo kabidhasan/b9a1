@@ -184,13 +184,12 @@ main section {
 
 /* ===============================Bonus Task Divs============================================ */
 /* ===============================Bonus Task Divs============================================ */
-.promotion-container{
-    padding: 0 140px;
-    display: flex;
-    justify-content: space-between;
+.promotion-container {
+  padding: 0 140px;
+  display: flex;
+  justify-content: space-between;
 }
 .promotion-subtitle {
-  
   color: #f00;
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -202,7 +201,7 @@ main section {
   color: #070211;
   font-size: 48px;
   font-weight: 900;
-  margin: 16px 0  22px 0;
+  margin: 16px 0 22px 0;
 }
 
 .promotion-description {
@@ -223,7 +222,7 @@ main section {
   border: 15px solid #f00;
 }
 
-.wish{
+.wish {
   margin-left: 80px;
 }
 .wish-title {
@@ -250,6 +249,39 @@ main section {
   height: 140px;
   flex-shrink: 0;
 }
+
+/* sale section style start  */
+.sale {
+  text-align: center;
+  padding: 0px 140px;
+}
+
+.sale-subtitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+}
+.sale-title {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  padding: 16px 0 28px 0;
+}
+
+.sale-title span {
+  color: #f00;
+}
+
+.sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  width: 75%;
+  margin: auto;
+}
+
 /* ===============================Bonus Task Divs============================================ */
 /* ===============================Bonus Task Divs============================================ */
 
