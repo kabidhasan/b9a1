@@ -183,6 +183,75 @@ main section {
 }
 
 /* ===============================Bonus Task Divs============================================ */
+/* ===============================Bonus Task Divs============================================ */
+.promotion-container{
+    padding: 0 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.promotion-subtitle {
+  
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 55px 0 0 0;
+}
+
+.promotion-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 16px 0  22px 0;
+}
+
+.promotion-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  max-width: 400px;
+}
+
+.promotion-img {
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+  padding: 35px;
+  border-radius: 465px;
+  border: 15px solid #f00;
+}
+
+.wish{
+  margin-left: 80px;
+}
+.wish-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 110px 0 0 0;
+}
+
+.wish-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  max-width: 275px;
+  margin: 15px 0 45px 0;
+}
+
+.wish-sticker {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+/* ===============================Bonus Task Divs============================================ */
+/* ===============================Bonus Task Divs============================================ */
 
 /* portfolio section starts */
 
@@ -327,15 +396,15 @@ footer {
 
 .info {
   color: #fff;
-  
+
   display: flex;
   justify-content: space-between;
   margin: auto 140px auto 140px;
   padding: 120px 0 50px 0;
-  border-bottom: 1px  rgba(255, 255, 255, 0.15) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.15) solid;
 }
 
-.info p{
+.info p {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -343,7 +412,7 @@ footer {
   line-height: 40px; /*166.667%*/
 }
 
-.info span{
+.info span {
   padding-top: 7px;
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -351,7 +420,8 @@ footer {
   margin-left: 10px;
 }
 
-.site, .call{
+.site,
+.call {
   display: flex;
 }
 
@@ -360,7 +430,7 @@ footer {
   justify-content: center;
 }
 
-.contact img{
+.contact img {
   padding-top: 10px;
 }
 
@@ -392,10 +462,9 @@ footer hr {
   display: flex;
   justify-content: space-between;
   border-top: 1px rgba(255, 255, 255, 0.15) solid;
-  
 }
 
-.last-container p{
+.last-container p {
   color: #fff;
   font-family: "Inter", sans-serif;
   font-size: 24px;
