@@ -282,6 +282,29 @@ main section {
   margin: auto;
 }
 
+/* poster section styles start */
+
+.poster-container{
+  margin: 60px 0px;
+  background: url('../resources/Rectangle\ 2.png'),url('../resources/Rectangle\ 1.png');
+  height: 660px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, top right;
+  border-radius: 16px 0px 16px 16px;
+  display: flex;
+}
+.poster-column{
+  width: 50%;
+}
+
+.jackpot{
+  height: 100%;
+}
+.fifty{
+  padding: 80px 250px 0 0;
+}
+
+
 /* ===============================Bonus Task Divs============================================ */
 /* ===============================Bonus Task Divs============================================ */
 
@@ -337,6 +360,7 @@ main section {
   border: 2px solid grey;
   transition: transform 0.5s ease-in-out;
   transform: scale(1.1);
+  box-shadow: 5px 5px 10px gray;
 }
 
 /* newsletter section styles start  */
